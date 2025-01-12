@@ -1,0 +1,50 @@
+form {
+  padding:30px;
+  width:300px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgb(12, 12, 12) ;
+  text-align:center;
+  background-color: whitesmoke;
+  }
+  
+  h1{
+    color:black;
+    font-size: large;
+    margin-bottom:15px;
+   }
+   
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input {
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 90%;
+   
+  }
+  input:focus{
+    outline:none;
+  }
+  button {
+    background-color: #3575E2;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 15px;
+  }
+  
+  button:hover {
+    background-color: #07142b;
+  }
+  a {
+    margin-top: 10px;
+    text-decoration-line: underline;
+  }

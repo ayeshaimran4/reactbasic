@@ -1,0 +1,20 @@
+.input-info {
+    margin-bottom:20px;
+   }
+   .input-info label {
+    display:block;
+    margin-bottom:5px;
+    color:#333;
+    font-weight:bold;
+   
+   }
+   .input-info input {
+    border: 1px solid black;
+    width:90%;
+    border-radius: 5px;
+    padding:8px;
+   }
+   .input-field input:focus {
+    border-color: #2575fc;
+    outline: none;
+   } 

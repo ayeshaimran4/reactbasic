@@ -1,0 +1,32 @@
+.navbar {
+    background-color: black;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between; /* This ensures space between the heading and the nav links */
+    align-items: center;
+}
+
+.head {
+    color: white;
+    margin: 0;
+    text-align: left; /* Align the heading to the left */
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center; /* This keeps the links centered */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    flex: 1; /* This allows nav-links to occupy available space and stay centered */
+}
+
+.nav-item {
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+}
+
+.nav-item:hover {
+    color: blueviolet;
+}

@@ -1,0 +1,39 @@
+ 
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border: 2px solid #141414;
+  }
+  
+  th, td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #27292c;
+  }
+  
+  th {
+    background-color: black;
+    color:white;
+  }
+  
+  td p {
+    margin: 0;
+    cursor: pointer;
+    color:blueviolet;
+  }
+  
+  td p:hover {
+    text-decoration: underline;
+    color:darkmagenta;
+  }
+  
+  .heading {
+    text-align: center;
+    font-size: 30px;
+  }
+  
+  .btn {
+    margin-bottom: 20px;
+  }
+      
